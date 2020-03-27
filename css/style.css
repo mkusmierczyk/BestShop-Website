@@ -1,13 +1,14 @@
 
 
 .page-header{
-    width:100%;
+
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
     box-shadow: 0 3px 6px #00000029;
-    margin-left: 136px;
+    margin-left: 70px;
+    margin-right: 70px;
 
 }
 
@@ -64,15 +65,44 @@ display: flex;
     align-items: center;
     flex-direction: column;
     width: 1626px;
-    height: 712px;
-    margin-bottom: 120px;
-
+    height: 1200px;
 }
 .buy-title{
-    height: 57px;
+    height: 77px;
     width: 226px;
     font-family: Raleway, serif;
     font-size:49px;
-}
-.buy.tex
+    margin: 130px 0 20px 0;
 
+}
+.buy-text{
+    width: 384px;
+    height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 38px;
+}
+.buy-button{
+    width: 440px;
+    height: 67px;
+    background: var(--main-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+
+}
+.buy-button-text{
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    color:var(--text-alwhite);
+    text-decoration: none;
+    margin-bottom :0;
+    padding-bottom: 0;
+
+}
+.buy-image img{
+    width: 1348px;
+    height: 594px;
+    margin-bottom: 100px;
+
+}
