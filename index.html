@@ -58,7 +58,7 @@
         <!--CONTAINER I -->
         <div class=popular-sales-container>
             <div class=popular-sales-image id="people">
-                <div></div>
+                <span class="popular-sales-container-circle"></span>
                 <img src="images/Person.svg" alt="people_visited">
             </div>
             <div class="popular-sales-numbers">
@@ -71,7 +71,7 @@
         <!--CONTAINER II -->
         <div class=popular-sales-container>
             <div class=popular-sales-image id="Eye">
-                <div></div>
+                <span class="popular-sales-container-circle"></span>
                 <img src="images/Eye.svg" alt="people_watched">
             </div>
 
@@ -86,6 +86,7 @@
         <div class="popular-sales-container">
             <div class=popular-sales-image id="catalog">
                 <div class=popular-sales-image>
+                    <span class="popular-sales-container-circle"></span>
                     <img src="images/Catalog.svg" alt="people_posted">
                 </div>
             </div>
@@ -111,8 +112,8 @@
                 ducimus fugiat inventore iste perferendis quisquam quod sit tenetur, ut. Autem dolor ex nemo sunt.
             </p>
         </div>
-        <span class="rectangel"></span>
-        <img src="images/Macbook.png" alt="macbook" class="content-containers-article-photo">
+        <img src="images/Macbook.png" alt="macbook" class="content-containers-article-photo macbook">
+        <span class="rectangle"></span>
     </div>
     <!--ARTICLE II-->
     <div class="content-containers-article">
@@ -198,40 +199,58 @@
 <!--Form-->
 
 <section class="form">
-    <div class = "form-containers">
-    <div class="form-left-container">
-        <h1 class="form-left-container-heading">Any questions?</h1>
-        <h2 class="form-left-container-subheading">Leave your email address or call us!</h2>
-        <div class=" form-left-container-contact">
-            <a href="#" class="form-left-container-contact-email"><img
-                    src="images/Mail%20Icon.svg">info@bestshop.xyz</a>
-            <a class="form-left-container-contact-phone"><img src="images/Phone%20Icon.svg">123 456 789</a>
+    <div class="form-containers">
+        <div class="form-left-container">
+            <h1 class="form-left-container-heading">Any questions?</h1>
+            <h2 class="form-left-container-subheading">Leave your email address or call us!</h2>
+            <div class=" form-left-container-contact">
+                <a href="#" class="form-left-container-contact-email"><img
+                        src="images/Mail%20Icon.svg">info@bestshop.xyz</a>
+                <a class="form-left-container-contact-phone"><img src="images/Phone%20Icon.svg">123 456 789</a>
+            </div>
+        </div>
+
+        <div class="form-right-container">
+            <form class="form-right-container-content">
+                <label class="form-right-container-content-label" for="name">NAME:</label>
+                <input class="form-right-container-content-input" type="text" id="name" name="name" value="John">
+                <label class="form-right-container-content-label" for="email">EMAIL</label>
+                <input class="form-right-container-content-input" type="email" id="email" name="lname" value="Doe">
+                <div class="form-right-container-content-checkbox">
+                    <label class="form-right-container-content-checkbox-label" for="accept"><input type="checkbox"
+                                                                                                   id="accept"
+                                                                                                   name="accept"
+                                                                                                   value="accept"
+                                                                                                   checked>
+                        <span class="checkmark"></span>I hereby give consent for my personal data included in my
+                        application to be processed for the purposes of the recruitment process under the European
+                        Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons
+                        as of 27 April 2016, with regard to the processing of personal data and on the free movement of
+                        such data, and repealing Directive 95/46/EC (Data Protection Directive)</label>
+                </div>
+                <div class="form-right-container-content-submit">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+
         </div>
     </div>
-
-    <div class="form-right-container">
-        <form class="form-right-container-content" >
-            <label class="form-right-container-content-label"  for="name">NAME:</label>
-            <input class="form-right-container-content-input" type="text" id="name" name="name" value="John">
-            <label class="form-right-container-content-label" for="email">EMAIL</label>
-            <input class="form-right-container-content-input" type="email" id="email" name="lname" value="Doe">
-            <div class="form-right-container-content-checkbox">
-            <label class ="form-right-container-content-checkbox-label" for="accept"><input type="checkbox" id="accept" name="accept" value="accept" checked>
-                <span class="checkmark"></span>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</label>
-            </div>
-            <div class="form-right-container-content-submit">
-            <input type="submit" value="Send">
-            </div>
-        </form>
-
-    </div>
-    </div>
-
-
 </section>
-
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left-container">
+                <a href="/" class="footer-left-container-logo page-logo">
+                    BestShop
+                </a>
+                <a class="footer-left-container-rights">© 2019 BestShop LTD, All Rights Reserved</a>
+            </div>
+            <div class = "footer-right-container-widgets">
+                <img src="images/Twitter.svg">
+                <img src="images/Facebook.svg">
+            </div>
+        </div>
+    </footer>
 
 </body>
-
 
 </html>
