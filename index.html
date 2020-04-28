@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Best Shop</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap&subset=latin-ext"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css" media="screen">
     <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="https://kit.fontawesome.com/e3ad251915.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
 <!--LOGO_NAVIGATION-->
 <header class="page-header">
     <div class="container">
@@ -28,25 +32,206 @@
 </header>
 <!-- BUY-BUTTON -->
 <section class="Buy-section">
-<div class="buy-container">
-    <h1 class="buy-title">
-        Sell More!
-    </h1>
-    <p class="buy-text">
-        Open shop on our platform and increase your sales    </p>
-    <div class="buy-button">
-        <a href="/" class="buy-button-text">
-            Open your shop
-        </a>
+    <div class="buy-container">
+        <h1 class="buy-title">
+            Sell More!
+        </h1>
+        <p class="buy-text">
+            Open shop on our platform and increase your sales </p>
+        <div class="buy-button">
+            <a href="/" class="buy-button-text">
+                Open your shop
+            </a>
+        </div>
+        <div class="buy-image">
+            <img src="images/Background.png" class="buy-image-background" alt="image with computer">
+        </div>
+
     </div>
-    <div class="buy-image">
-        <img src="images/Background.png" class="buy-image-background" alt="image with computer">
+    <!-- POPULAR SALES -->
+</section>
+<section class="popular-sales">
+    <div class="popular-sales-mainTitle">
+        <p class="popular-sales-mainTitle-text"> The most popular sales platform in country</p>
+    </div>
+    <div class=popular-sales-allContainers>
+        <!--CONTAINER I -->
+        <div class=popular-sales-container>
+            <div class=popular-sales-image id="people">
+                <div></div>
+                <img src="images/Person.svg" alt="people_visited">
+            </div>
+            <div class="popular-sales-numbers">
+                <p>100000+</p>
+            </div>
+            <div class="popular-sales-title">
+                <p>daily entries</p>
+            </div>
+        </div>
+        <!--CONTAINER II -->
+        <div class=popular-sales-container>
+            <div class=popular-sales-image id="Eye">
+                <div></div>
+                <img src="images/Eye.svg" alt="people_watched">
+            </div>
+
+            <div class="popular-sales-numbers">
+                <p>2000000+</p>
+            </div>
+            <div class="popular-sales-title">
+                <p>seen products every day</p>
+            </div>
+        </div>
+        <!--CONTAINER III -->
+        <div class="popular-sales-container">
+            <div class=popular-sales-image id="catalog">
+                <div class=popular-sales-image>
+                    <img src="images/Catalog.svg" alt="people_posted">
+                </div>
+            </div>
+            <div class="popular-sales-numbers">
+                <p>10000+</p>
+            </div>
+            <div class="popular-sales-title">
+                <p>added posts daily</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ARTICLES-->
+<section class=" content-container">
+    <!--ARTICLE I-->
+    <div class=" content-containers-article">
+        <div class=content-container-article-titleText>
+            <h1 class="content-container-article-title">
+                Be always first
+            </h1>
+            <p class="content-containers-article-text cherry-border">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur culpa earum nemo placeat. Autem
+                ducimus fugiat inventore iste perferendis quisquam quod sit tenetur, ut. Autem dolor ex nemo sunt.
+            </p>
+        </div>
+        <span class="rectangel"></span>
+        <img src="images/Macbook.png" alt="macbook" class="content-containers-article-photo">
+    </div>
+    <!--ARTICLE II-->
+    <div class="content-containers-article">
+        <span class="circle"></span>
+        <img src="images/iPhone.png" alt="iPhone" class="content-containers-article-photo phone">
+        <div class=content-container-article-titleText>
+            <h1 class="content-container-article-title ">
+                Your shop is where you are!
+            </h1>
+            <p class="content-containers-article-text navy-blue-border">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur culpa earum nemo placeat. Autem
+                ducimus fugiat inventore iste perferendis quisquam quod sit tenetur, ut. Autem dolor ex nemo sunt.
+            </p>
+        </div>
+    </div>
+    <!--ARTICLE III-->
+    <div class=" content-containers-article ">
+        <div class=content-container-article-titleText>
+            <h1 class="content-container-article-title">
+                Increase recognition your brand!
+            </h1>
+            <p class="content-containers-article-text blue-border ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur culpa earum nemo placeat. Autem
+                ducimus fugiat inventore iste perferendis quisquam quod sit tenetur, ut. Autem dolor ex nemo sunt.
+            </p>
+        </div>
+        <img src="images/Trumpet.png" alt="trumpet" class="content-containers-article-photo trumpet">
+    </div>
+</section>
+
+<!--Purchase Options -->
+<section class="options">
+    <div class="options-header">
+        <h1>Pricing</h1>
+    </div>
+    <div class="options-container-all">
+        <div class="options-container basic">
+            <h2 class="options-container-title">Basic</h2>
+            <h3 class="options-container-price price-basic ">$0</h3>
+            <ul class=" options-container-list">
+                <li><i class="far fa-check-square"></i>100 MB HDD</li>
+                <li><i class="far fa-check-square"></i> Subdomain</li>
+                <li><i class="far fa-check-square"></i>2 E-mails</li>
+                <li><i class="far fa-window-close"></i>Two years license</li>
+                <li><i class="far fa-window-close"></i>Full support</li>
+            </ul>
+            <a href="#" class="options-header-btn btn-basic">Begin</a>
+        </div>
+
+
+        <div class="options-container professional">
+            <h2 class="options-container-title">Professional</h2>
+            <h3 class="options-container-price price-professional">$25 <p class=options-container-price-subheading>
+                Limited offer</p></h3>
+
+            <ul class=" options-container-list">
+                <li><i class="far fa-check-square"></i>500 MB HDD</li>
+                <li><i class="far fa-check-square"></i>2 Subdomains</li>
+                <li><i class="far fa-check-square"></i>5 E-mails</li>
+                <li><i class="far fa-check-square"></i>One year license</li>
+                <li><i class="far fa-window-close"></i>Full support</li>
+            </ul>
+            <a href="#" class="options-header-btn btn-professional">Begin</a>
+        </div>
+
+        <div class="options-container premium">
+            <h2 class="options-container-title">Premium</h2>
+            <h3 class="options-container-price price-premium">$60 <p class=options-container-price-subheading>Limited
+                offer</p></h3>
+
+            <ul class=" options-container-list">
+                <li><i class="far fa-check-square"></i>2GB HDD</li>
+                <li><i class="far fa-check-square"></i>5 Subdomains</li>
+                <li><i class="far fa-check-square"></i>20 E-mails</li>
+                <li><i class="far fa-check-square"></i>Two years license</li>
+                <li><i class="far fa-check-square"></i>Full support</li>
+            </ul>
+            <a href="#" class="options-header-btn btn-premium ">Begin</a>
+        </div>
     </div>
 
-</div>
-    </section>
+</section>
+<!--Form-->
+
+<section class="form">
+    <div class = "form-containers">
+    <div class="form-left-container">
+        <h1 class="form-left-container-heading">Any questions?</h1>
+        <h2 class="form-left-container-subheading">Leave your email address or call us!</h2>
+        <div class=" form-left-container-contact">
+            <a href="#" class="form-left-container-contact-email"><img
+                    src="images/Mail%20Icon.svg">info@bestshop.xyz</a>
+            <a class="form-left-container-contact-phone"><img src="images/Phone%20Icon.svg">123 456 789</a>
+        </div>
+    </div>
+
+    <div class="form-right-container">
+        <form class="form-right-container-content" >
+            <label class="form-right-container-content-label"  for="name">NAME:</label>
+            <input class="form-right-container-content-input" type="text" id="name" name="name" value="John">
+            <label class="form-right-container-content-label" for="email">EMAIL</label>
+            <input class="form-right-container-content-input" type="email" id="email" name="lname" value="Doe">
+            <div class="form-right-container-content-checkbox">
+            <label class ="form-right-container-content-checkbox-label" for="accept"><input type="checkbox" id="accept" name="accept" value="accept" checked>
+                <span class="checkmark"></span>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</label>
+            </div>
+            <div class="form-right-container-content-submit">
+            <input type="submit" value="Send">
+            </div>
+        </form>
+
+    </div>
+    </div>
+
+
+</section>
 
 
 </body>
+
 
 </html>

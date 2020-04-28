@@ -21,15 +21,20 @@
   <component name="ProjectId" id="1Zi7UnyKRFNv9biEBAFUqsFC8zP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zaawansowany_html/test" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="ts.external.directory.path" value="D:\Programy\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -47,21 +52,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585310078376</updated>
-      <workItem from="1585310079638" duration="11514000" />
+      <workItem from="1585310079638" duration="13491000" />
+      <workItem from="1586083009677" duration="9836000" />
+      <workItem from="1586092944372" duration="18646000" />
+      <workItem from="1586153474994" duration="3000" />
+      <workItem from="1586153513057" duration="6523000" />
+      <workItem from="1586204737956" duration="6634000" />
+      <workItem from="1586239997321" duration="40000" />
+      <workItem from="1588061637359" duration="18943000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585310506844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585310506844" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585310377879">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588069924121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585310377879" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588069924121" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1586205532713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586205532713" />
   </component>
 </project>
