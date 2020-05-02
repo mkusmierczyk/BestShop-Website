@@ -62,5 +62,5 @@ Project is: finished
 Add here credits. Project inspired based on graphic design  of landing page made in Adobe XD.
 
 ## Contact
-Created by Mateusz Kusmierczyk feel free to contact me on GitHub!
+Created by Mateusz Kusmierczyk. Feel free to contact me on GitHub!
 
