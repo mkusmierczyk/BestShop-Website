@@ -26,7 +26,7 @@ https://xd.adobe.com/spec/3e12f9b5-11e7-4d9a-6a6b-e78b20d2a5a6-4823/
 Project is: finished
 
 ## Inspiration
- Project inspired based on graphic design of landing page made in Adobe XD.
+ Project based on graphic design of landing page made in Adobe XD.
 
 ## Contact
 Created by Mateusz Kusmierczyk. Feel free to contact me on GitHub!
